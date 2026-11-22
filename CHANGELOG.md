@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.1
+
+- Bar renders late (Order 1000) so Radar and other Order-0 plugins no longer
+  paint over it.
+
 ## v1.0
 
 - Settings window rebuilt on house UI v2.

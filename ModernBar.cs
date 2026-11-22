@@ -164,7 +164,7 @@ namespace ModernBar
             public bool IsLevelCheck;
         }
 
-        public override void OnLoad() => Order = -50;
+        public override void OnLoad() => Order = 1000; // draw late: bar paints over Radar and the Order-0 crowd, under AutoAugury (5001).
 
         public override bool Initialise()
         {
